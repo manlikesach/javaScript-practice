@@ -1,3 +1,5 @@
+const PromptSync = require("prompt-sync");
+
 const prompt = require("prompt-sync")();
 
 let answer = parseInt(prompt("Enter number for fizzBuzz: "));
