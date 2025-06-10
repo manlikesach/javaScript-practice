@@ -13,7 +13,7 @@
 // let camelCaseStr = parts.join("");
 
 // // Print output
-// console.log(camelCaseStr);
+console.log(camelCaseStr);
 
 // Turning to reusable function
 function toCamelCase(str) {
