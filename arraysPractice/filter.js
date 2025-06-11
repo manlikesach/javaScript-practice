@@ -7,3 +7,16 @@ let filtered = filteredRange(arr, 2, 6);
 
 console.log(arr);
 console.log(filtered);
+
+// Filter range in place
+
+function filterRangeInPlace(arr, a, b) {
+  for (let i = 0; i < arr.length; i++) {
+    let val = arr[i];
+
+    if (val < a || val > b) {
+      arr.splice(i, 1);
+      i--;
+    }
+  }
+}
