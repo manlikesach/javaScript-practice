@@ -1,0 +1,14 @@
+.redText {
+  color: red;
+}
+
+.blueText {
+  color: blue;
+}
+
+.pinkBox {
+  background-color: pink;
+  border: 1px solid black;
+  padding: 10px;
+  margin-top: 10px;
+}
